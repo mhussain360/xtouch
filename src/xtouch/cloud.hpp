@@ -138,7 +138,7 @@ public:
       lv_timer_handler();
       lv_task_handler();
       delay(3000);
-      ESP.restart();
+      //ESP.restart();
 
       return false;
     }
